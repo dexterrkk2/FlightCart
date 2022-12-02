@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DevAccountEmail: rkeithk@mtaonline.net
   DevAccountToken: c4q4u6gpenxpnyahbgcxzab9dn549x4cnufdq5ni85k71xkwtqpzm6pmwywrc5c1zo3qdaucywgsuci48r31m6tcz4yeum5s8hbbht96qrpyjgj4uq9bxx71kit5zjdspdi5qr9diz4psnnrpo51ge8beozdtf96by93zofafjfgwi1n986d5gpemq4qingitt51c8ma
-  SelectedStudio: My Game Studio
+  SelectedStudio: Studio
   SdkPath: Assets/PlayFabSDK
   EdExPath: 
   LocalCloudScriptPath: 
