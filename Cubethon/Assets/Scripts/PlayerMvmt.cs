@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
-public class PlayerMvmt : MonoBehaviour
+public class PlayerMvmt : MonoBehaviourPunCallbacks
 {
     public Rigidbody rb;
     public float forwardForce = 2000f;
