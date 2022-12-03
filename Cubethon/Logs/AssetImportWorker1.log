@@ -1,0 +1,489 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.15f1 (42973686a05c) revision 4364086'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32679 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Homework/Game systems 2/FlightCart/FlightCart/Cubethon
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53523
+Successfully changed project path to: D:/Homework/Game systems 2/FlightCart/FlightCart/Cubethon
+D:/Homework/Game systems 2/FlightCart/FlightCart/Cubethon
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 56.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.15f1 (42973686a05c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Homework/Game systems 2/FlightCart/FlightCart/Cubethon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   NVIDIA
+    VRAM:     8010 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008058 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.715 seconds
+Domain Reload Profiling:
+	ReloadAssembly (715ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (503ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+				TypeCache.Initialize (140ms)
+					TypeCache.ScanAssembly (138ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004196 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1317ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1054ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+				TypeCache.Initialize (237ms)
+					TypeCache.ScanAssembly (234ms)
+				ResolveRequiredComponents (27ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 2652.
+Memory consumption went from 366.9 MB to 365.6 MB.
+Total: 3.531800 ms (FindLiveObjects: 0.184100 ms CreateObjectMapping: 0.149500 ms MarkObjects: 2.913600 ms  DeleteObjects: 0.283700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PlayFab.PfEditor.PlayFabEditorPrefsSO:get_Instance () (at Assets/Packlages/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs:38)
+PlayFab.PfEditor.SubMenuComponent:RegisterMenuItem (string,System.Action) (at Assets/Packlages/PlayFabEditorExtensions/Editor/Scripts/Components/SubMenuComponent.cs:42)
+PlayFab.PfEditor.PlayFabEditorDataMenu:RegisterMenu () (at Assets/Packlages/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs:93)
+PlayFab.PfEditor.PlayFabEditorDataMenu:.cctor () (at Assets/Packlages/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs:74)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Packlages/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs line 38]
+
+UnityEngine.UnityException: Creating asset at path Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at PlayFab.PfEditor.PlayFabEditorPrefsSO.get_Instance () [0x00084] in D:\Homework\Game systems 2\FlightCart\FlightCart\Cubethon\Assets\Packlages\PlayFabEditorExtensions\Editor\Scripts\Utils\PlayFabEditorPrefsSO.cs:38 
+  at PlayFab.PfEditor.SubMenuComponent.RegisterMenuItem (System.String n, System.Action m) [0x00010] in D:\Homework\Game systems 2\FlightCart\FlightCart\Cubethon\Assets\Packlages\PlayFabEditorExtensions\Editor\Scripts\Components\SubMenuComponent.cs:42 
+  at PlayFab.PfEditor.PlayFabEditorDataMenu.RegisterMenu () [0x00018] in D:\Homework\Game systems 2\FlightCart\FlightCart\Cubethon\Assets\Packlages\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorDataMenu.cs:93 
+  at PlayFab.PfEditor.PlayFabEditorDataMenu..cctor () [0x0003a] in D:\Homework\Game systems 2\FlightCart\FlightCart\Cubethon\Assets\Packlages\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorDataMenu.cs:74 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.181 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1182ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (937ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+				TypeCache.Initialize (256ms)
+					TypeCache.ScanAssembly (251ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 2657.
+Memory consumption went from 356.9 MB to 355.6 MB.
+Total: 3.021000 ms (FindLiveObjects: 0.190900 ms CreateObjectMapping: 0.121200 ms MarkObjects: 2.483100 ms  DeleteObjects: 0.224800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1812429.282407 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Cloud_Cumulus_Fluffy.fbx
+  artifactKey: Guid(a6acf282455bcbe49b74fd34fff0a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Cloud_Cumulus_Fluffy.fbx using Guid(a6acf282455bcbe49b74fd34fff0a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5146ac5e724457ccf3e5db76004fb80') in 0.347843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Clouds_cumulonimbus.fbx
+  artifactKey: Guid(84bc9d52f9a093247beae982bd6c37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Clouds_cumulonimbus.fbx using Guid(84bc9d52f9a093247beae982bd6c37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82057a08cf59784ee6f65a70b92eae04') in 0.031822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Cloud_Strato.fbx
+  artifactKey: Guid(85c7b36c43c3b5d4bb144cc09fc55f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Cloud_Strato.fbx using Guid(85c7b36c43c3b5d4bb144cc09fc55f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6622ed535ff160a2a8d2e08fd68e3eb4') in 0.028394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3LE Low Poly Cloud Pack/Models/Clouds_stratus.fbx
+  artifactKey: Guid(e0f44c853e3967d4ca02c833371c7171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack/Models/Clouds_stratus.fbx using Guid(e0f44c853e3967d4ca02c833371c7171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae6e9ff6ae47ba2e8fecd71d4f7aa82') in 0.025334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.759575 seconds.
+  path: Assets/AwesomeCartoonPlanes/Models/PlaneS2.fbx
+  artifactKey: Guid(39e3c7ce73bc03d4380ae117e979251c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AwesomeCartoonPlanes/Models/PlaneS2.fbx using Guid(39e3c7ce73bc03d4380ae117e979251c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552f42f41da1d0567be689df25cd8354') in 0.209356 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PlayFab.PfEditor.PlayFabEditorPrefsSO:get_Instance () (at Assets/Packlages/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs:38)
+PlayFab.PfEditor.SubMenuComponent:RegisterMenuItem (string,System.Action) (at Assets/Packlages/PlayFabEditorExtensions/Editor/Scripts/Components/SubMenuComponent.cs:42)
+PlayFab.PfEditor.PlayFabEditorDataMenu:RegisterMenu () (at Assets/Packlages/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs:93)
+PlayFab.PfEditor.PlayFabEditorDataMenu:.cctor () (at Assets/Packlages/PlayFabEditorExtensions/Editor/Scripts/Panels/PlayFabEditorDataMenu.cs:74)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Packlages/PlayFabEditorExtensions/Editor/Scripts/Utils/PlayFabEditorPrefsSO.cs line 38]
+
+UnityEngine.UnityException: Creating asset at path Assets/PlayFabEditorExtensions/Editor/Resources/PlayFabEditorPrefsSO.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at PlayFab.PfEditor.PlayFabEditorPrefsSO.get_Instance () [0x00084] in D:\Homework\Game systems 2\FlightCart\FlightCart\Cubethon\Assets\Packlages\PlayFabEditorExtensions\Editor\Scripts\Utils\PlayFabEditorPrefsSO.cs:38 
+  at PlayFab.PfEditor.SubMenuComponent.RegisterMenuItem (System.String n, System.Action m) [0x00010] in D:\Homework\Game systems 2\FlightCart\FlightCart\Cubethon\Assets\Packlages\PlayFabEditorExtensions\Editor\Scripts\Components\SubMenuComponent.cs:42 
+  at PlayFab.PfEditor.PlayFabEditorDataMenu.RegisterMenu () [0x00018] in D:\Homework\Game systems 2\FlightCart\FlightCart\Cubethon\Assets\Packlages\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorDataMenu.cs:93 
+  at PlayFab.PfEditor.PlayFabEditorDataMenu..cctor () [0x0003a] in D:\Homework\Game systems 2\FlightCart\FlightCart\Cubethon\Assets\Packlages\PlayFabEditorExtensions\Editor\Scripts\Panels\PlayFabEditorDataMenu.cs:74 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1312ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1019ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+				TypeCache.Initialize (243ms)
+					TypeCache.ScanAssembly (238ms)
+				ResolveRequiredComponents (9ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (559ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (428ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2149 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 2674.
+Memory consumption went from 361.1 MB to 359.9 MB.
+Total: 3.239700 ms (FindLiveObjects: 0.241800 ms CreateObjectMapping: 0.114800 ms MarkObjects: 2.646500 ms  DeleteObjects: 0.235100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.810405 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Cubemap.mat
+  artifactKey: Guid(3f1e52dec055a3a4f850420ef19cb2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Night_Cubemap.mat using Guid(3f1e52dec055a3a4f850420ef19cb2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdeb59d4a524907723d1367af02d209e') in 0.846047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Snowy_Cubemap.mat
+  artifactKey: Guid(a3a02bda0a9032049ad25627480b5d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS002/FS002_Snowy_Cubemap.mat using Guid(a3a02bda0a9032049ad25627480b5d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8334764e5006598c9f7e5c7eb9982dfc') in 0.644200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.526965 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.mat
+  artifactKey: Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_01_Sunless.mat using Guid(d48a7646f5d0547e889733d84b50cb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c70f205387462ce13a30bfbb06d80f') in 0.058580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.128086 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03.mat
+  artifactKey: Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_03.mat using Guid(33ab377b49aa14f6fae6e5bac230a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8140529c17409916f8a071dbdfc50e68') in 0.104401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.182687 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.mat
+  artifactKey: Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_04.mat using Guid(1700716a8dd8948cf8c66ea34a2786d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bcd412fa7d44d444e748e542858813') in 0.105377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078607 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.mat
+  artifactKey: Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_05.mat using Guid(e11f5b66aad75483b8cd16ee18a0c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1e286f6cb51abbec2d70c3dcaff8fe') in 0.017499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031729 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat
+  artifactKey: Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06.mat using Guid(123caa41e84e041d0bd65bb3ae888dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d419b2ee7ebd9fb92ccf82f4fffcaa9') in 0.092065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015207 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.png
+  artifactKey: Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Day_06_Sunless.png using Guid(5a80706490c0b9e458216d2d0bb6c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ea361ded8c30c30f1a45296ad5d9c0') in 0.048090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.137076 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.mat
+  artifactKey: Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_02_Moonless.mat using Guid(94caf2ba4ca5e46bfaba53afcc8778dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79578b1bb9978deecb66be268e28f73') in 0.064228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033163 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.mat
+  artifactKey: Guid(42dc3b9b0dd2040fc9ef0182fdea0e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/FS000_Night_03_Moonless.mat using Guid(42dc3b9b0dd2040fc9ef0182fdea0e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b76160c7274f7101e19e12fc2b5cfd') in 0.033134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.451726 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Cubemap.mat
+  artifactKey: Guid(737024f24a4498b4ea58a67c1667a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Night_Cubemap.mat using Guid(737024f24a4498b4ea58a67c1667a3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6c4ed9782dbd25cf66c76bf685057a') in 0.788093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunrise_Cubemap.mat
+  artifactKey: Guid(f3b3f6a697514944da8524250aa64277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/FS013_Sunrise_Cubemap.mat using Guid(f3b3f6a697514944da8524250aa64277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb98618215b715a323158add0795a6c') in 0.687932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212527 seconds.
+  path: Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_left.png
+  artifactKey: Guid(014727d82348f1a4f8175752fb91f720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Cubemaps/FS013/Images/FS013_Day_Cubemap_left.png using Guid(014727d82348f1a4f8175752fb91f720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7520539a8a53022012c089b7392f41b3') in 0.018141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.544680 seconds.
+  path: Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-16.png
+  artifactKey: Guid(9f00a93774b28c149b89ff307506c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-16.png using Guid(9f00a93774b28c149b89ff307506c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a1fe0f14b5f74de4de234795ca3983') in 0.035886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.135060 seconds.
+  path: Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-24.png
+  artifactKey: Guid(296bd2dd2ad6940409c0619d9c03737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-24.png using Guid(296bd2dd2ad6940409c0619d9c03737d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df640a4972fa49ccc7646e9ddc8e4dc0') in 0.026523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048409 seconds.
+  path: Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-27.png
+  artifactKey: Guid(91f4971292fa0614784a1fe40985bf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-27.png using Guid(91f4971292fa0614784a1fe40985bf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576725a07f2cf54ee272ded75ccbf75d') in 0.051496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.424121 seconds.
+  path: Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-43.png
+  artifactKey: Guid(cd3487d8b5f1a11429f236e141861a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-43.png using Guid(cd3487d8b5f1a11429f236e141861a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6afed978a34f5e3875a279dc58ba50') in 0.029934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073425 seconds.
+  path: Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-49.png
+  artifactKey: Guid(785012d4a894fe5488c30eb0c4d51443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-49.png using Guid(785012d4a894fe5488c30eb0c4d51443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6fd41a2650c41422455b6c253ae452') in 0.025708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346958 seconds.
+  path: Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-59.png
+  artifactKey: Guid(f5fe2314b9d0ebd4ea0179a94ac38dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-59.png using Guid(f5fe2314b9d0ebd4ea0179a94ac38dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb412552356331e06211c86bacfca9f6') in 0.027338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.405838 seconds.
+  path: Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-66.png
+  artifactKey: Guid(675209a314ab14a47a64e63d3923cd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-66.png using Guid(675209a314ab14a47a64e63d3923cd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7260e5025b43b8e8c67b0eaecc967c57') in 0.028074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033701 seconds.
+  path: Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-71.png
+  artifactKey: Guid(1dd88ab66039bdf4ea2ff75cb3f7b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-71.png using Guid(1dd88ab66039bdf4ea2ff75cb3f7b1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e8080779e8b6362fe87c3d0b19dc82') in 0.053215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212890 seconds.
+  path: Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-81.png
+  artifactKey: Guid(4c50ee33ea7ab4540b0345198f4dbf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SHarmid/Simple Icons - Classic/Sprites/Icons/icon-81.png using Guid(4c50ee33ea7ab4540b0345198f4dbf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd1dcf7b3fa123f909647d9a2e5a387') in 0.026104 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
