@@ -542,7 +542,7 @@ Transform:
   - {fileID: 1012336047519655292}
   - {fileID: 1012336047519655288}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1012336047516755294
 MeshFilter:
@@ -656,7 +656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 1012336049123350201}
-  boxCollider: {fileID: 0}
+  boxCollider: {fileID: 1012336049123350194}
 --- !u!114 &1012336049123350201
 MonoBehaviour:
   m_ObjectHideFlags: 0

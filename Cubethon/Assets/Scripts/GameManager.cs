@@ -7,7 +7,7 @@ using Photon.Realtime;
 
 public class GameManager : MonoBehaviourPunCallbacks
 {
-
+    public float postGameTime;
     bool gameHasEnded = false;
     public float restartDelay = 1f;
     public GameObject completeLevelUI;
@@ -19,7 +19,70 @@ public class GameManager : MonoBehaviourPunCallbacks
     private int playersInGame; // number of players in the game
     // instance
     public static GameManager instance;
-
+    void Awake()
+    {
+        // instance
+        instance = this;
+    }
+    void Start()
+    {
+        players = new PlayerMvmt[PhotonNetwork.PlayerList.Length];
+        photonView.RPC("ImInGame", RpcTarget.AllBuffered);
+    }
+    [PunRPC]
+    void ImInGame()
+    {
+        playersInGame++;
+        if (playersInGame == PhotonNetwork.PlayerList.Length)
+        {
+            SpawnPlayer();
+        }
+    }
+    public void CheckWinCondition(int id)
+    {
+        //if (players[id - 1])
+        //{
+            //photonView.RPC("WinGame", RpcTarget.All, players, id);
+       // }
+    }
+    [PunRPC]
+    void WinGame(int playerId)
+    {
+        // set the UI to show who's won
+        Invoke("GoBackToMenu", postGameTime);
+    }
+    void GoBackToMenu()
+    {
+        PhotonNetwork.LeaveRoom();
+        Networkmanager.instance.ChangeScene("Menu");
+    }
+    [PunRPC]
+    void SpawnPlayer()
+    {
+        // instantiate the player across the network
+        GameObject playerObj = PhotonNetwork.Instantiate(playerPrefabLocation, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
+        // get the player script
+        PlayerMvmt player = playerObj.GetComponent<PlayerMvmt>();
+        playerObj.GetComponent<PhotonView>().RPC("Initialize", RpcTarget.All, PhotonNetwork.LocalPlayer);
+    }
+    public PlayerMvmt GetPlayer(int playerId)
+    {
+        foreach (PlayerMvmt player in players)
+        {
+            if (player != null && player.id == playerId)
+                return player;
+        }
+        return null;
+    }
+    public PlayerMvmt GetPlayer(GameObject playerObject)
+    {
+        foreach (PlayerMvmt player in players)
+        {
+            if (player != null && player.gameObject == playerObject)
+                return player;
+        }
+        return null;
+    }
     public void EndGame()
     {
         if(gameHasEnded == false)
@@ -28,13 +91,6 @@ public class GameManager : MonoBehaviourPunCallbacks
             Debug.Log("Gameover");
             //Invoke("Restart", restartDelay);
         }
-    }
-    void SpawnPlayer()
-    {
-        // instantiate the player across the network
-        GameObject playerObj = PhotonNetwork.Instantiate(playerPrefabLocation, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
-        // get the player script
-        playerObj.GetComponent<PlayerMvmt>().photonView.RPC("Initialize", RpcTarget.All, PhotonNetwork.LocalPlayer);
     }
     void Restart()
     {
