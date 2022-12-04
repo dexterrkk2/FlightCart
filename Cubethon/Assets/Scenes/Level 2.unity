@@ -5155,7 +5155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6240687269496593090, guid: 4662b86b7c02f874d9559a8c5e148617, type: 3}
       propertyPath: spawnPoints.Array.size
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6240687269496593090, guid: 4662b86b7c02f874d9559a8c5e148617, type: 3}
       propertyPath: spawnPoints.Array.data[0]
@@ -5171,6 +5171,34 @@ PrefabInstance:
       objectReference: {fileID: 21135527}
     - target: {fileID: 6240687269496593090, guid: 4662b86b7c02f874d9559a8c5e148617, type: 3}
       propertyPath: spawnPoints.Array.data[3]
+      value: 
+      objectReference: {fileID: 21135527}
+    - target: {fileID: 6240687269496593090, guid: 4662b86b7c02f874d9559a8c5e148617, type: 3}
+      propertyPath: spawnPoints.Array.data[4]
+      value: 
+      objectReference: {fileID: 21135527}
+    - target: {fileID: 6240687269496593090, guid: 4662b86b7c02f874d9559a8c5e148617, type: 3}
+      propertyPath: spawnPoints.Array.data[5]
+      value: 
+      objectReference: {fileID: 21135527}
+    - target: {fileID: 6240687269496593090, guid: 4662b86b7c02f874d9559a8c5e148617, type: 3}
+      propertyPath: spawnPoints.Array.data[6]
+      value: 
+      objectReference: {fileID: 21135527}
+    - target: {fileID: 6240687269496593090, guid: 4662b86b7c02f874d9559a8c5e148617, type: 3}
+      propertyPath: spawnPoints.Array.data[7]
+      value: 
+      objectReference: {fileID: 21135527}
+    - target: {fileID: 6240687269496593090, guid: 4662b86b7c02f874d9559a8c5e148617, type: 3}
+      propertyPath: spawnPoints.Array.data[8]
+      value: 
+      objectReference: {fileID: 21135527}
+    - target: {fileID: 6240687269496593090, guid: 4662b86b7c02f874d9559a8c5e148617, type: 3}
+      propertyPath: spawnPoints.Array.data[9]
+      value: 
+      objectReference: {fileID: 21135527}
+    - target: {fileID: 6240687269496593090, guid: 4662b86b7c02f874d9559a8c5e148617, type: 3}
+      propertyPath: spawnPoints.Array.data[10]
       value: 
       objectReference: {fileID: 21135527}
     - target: {fileID: 6240687269496593091, guid: 4662b86b7c02f874d9559a8c5e148617, type: 3}
