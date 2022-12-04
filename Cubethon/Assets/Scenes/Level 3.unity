@@ -4924,6 +4924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 5749106702304961642, guid: 9cd52f6523b26e14ea02a1e3c021e371, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5749106702304961645, guid: 9cd52f6523b26e14ea02a1e3c021e371, type: 3}
       propertyPath: movement
       value: 

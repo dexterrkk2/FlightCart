@@ -42,8 +42,16 @@ public class PlayerMvmt : MonoBehaviourPunCallbacks
     // Update is called once per frame
     void FixedUpdate ()
     {
+        rb.MoveRotation(CameraController.instance.transform.rotation);
         rb.AddForce(0, 0, forwardForce * Time.deltaTime);
-
+        if (Input.GetAxis("Mouse X") < 0)
+        {
+            transform.Rotate(0, -(Input.GetAxis("Mouse X")) * Time.deltaTime * forwardForce, 0);
+        }
+        if (Input.GetAxis("Mouse X") > 0)
+        {
+            transform.Rotate(0, -(Input.GetAxis("Mouse X")) * Time.deltaTime * forwardForce, 0);
+        }
         if ( Input.GetKey("d"))
         {
             rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
@@ -63,25 +71,24 @@ public class PlayerMvmt : MonoBehaviourPunCallbacks
         {
             rb.AddForce(0, -upwardForce * Time.deltaTime, 0, ForceMode.VelocityChange);
         }
-
         if(rb.position.y < -maxY)
         {
-            FindObjectOfType<GameManager>().EndGame();
+            GameManager.instance.EndGame();
         }
 
         if (rb.position.y > maxY)
         {
-            FindObjectOfType<GameManager>().EndGame();
+            GameManager.instance.EndGame();
         }
 
         if (rb.position.x < -maxX)
         {
-            FindObjectOfType<GameManager>().EndGame();
+            GameManager.instance.EndGame();
         }
 
         if (rb.position.x > maxX)
         {
-            FindObjectOfType<GameManager>().EndGame();
+            GameManager.instance.EndGame();
         }
     }
 }

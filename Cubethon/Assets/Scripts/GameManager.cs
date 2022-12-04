@@ -61,7 +61,6 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         // instantiate the player across the network
         GameObject playerObj = PhotonNetwork.Instantiate(playerPrefabLocation, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
-        FollowPlayer.instance.Player = playerObj.transform;
         score.instance.player = playerObj.transform;
         playerObj.GetComponent<PhotonView>().RPC("Initialize", RpcTarget.All, PhotonNetwork.LocalPlayer);
     }
@@ -89,12 +88,12 @@ public class GameManager : MonoBehaviourPunCallbacks
         {
             gameHasEnded = true;
             Debug.Log("Gameover");
-            //Invoke("Restart", restartDelay);
+            Invoke("GoBackToMenu", postGameTime);
         }
     }
     void Restart()
     {
-
+        Invoke("GoBackToMenu", postGameTime);
     }
 
     public void CompleteLevel()
