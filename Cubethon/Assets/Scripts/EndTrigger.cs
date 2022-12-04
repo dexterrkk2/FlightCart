@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class EndTrigger : MonoBehaviour
 {
-
-    public GameManager gameManager;
-
+    public string nextLevel;
     private void OnTriggerEnter(Collider other)
     {
-        gameManager.CompleteLevel();
+        GameManager.instance.completeLevelUI.SetActive(true);
+        Invoke("ChangeScene", 1f);
+    }
+    public void ChangeScene()
+    {
+            Networkmanager.instance.ChangeScene(nextLevel);
     }
 }
