@@ -61,8 +61,8 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         // instantiate the player across the network
         GameObject playerObj = PhotonNetwork.Instantiate(playerPrefabLocation, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
-        // get the player script
-        PlayerMvmt player = playerObj.GetComponent<PlayerMvmt>();
+        FollowPlayer.instance.Player = playerObj.transform;
+        score.instance.player = playerObj.transform;
         playerObj.GetComponent<PhotonView>().RPC("Initialize", RpcTarget.All, PhotonNetwork.LocalPlayer);
     }
     public PlayerMvmt GetPlayer(int playerId)

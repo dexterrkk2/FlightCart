@@ -6,11 +6,14 @@ public class FollowPlayer : MonoBehaviour
 {
     public Transform Player;
     public Vector3 offSet;
-
+    public static FollowPlayer instance;
+    private void Awake()
+    {
+        instance = this;
+    }
     // Update is called once per frame
-    void Update()
+    public void Update()
     {
         transform.position = Player.position + offSet;
-        
     }
 }

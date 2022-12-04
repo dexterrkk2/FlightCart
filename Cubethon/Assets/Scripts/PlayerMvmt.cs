@@ -19,6 +19,26 @@ public class PlayerMvmt : MonoBehaviourPunCallbacks
     {
         instance = this;
     }
+    [PunRPC]
+    public void Initialize(Player player)
+    {
+        id = player.ActorNumber;
+        photonPlayer = player;
+        //photonPlayer = player;
+
+        GameManager.instance.players[id - 1] = this;
+
+        // if this isn't our local player, disable physics as that's
+        // controlled by the user and synced to all other clients
+        if (player.IsLocal)
+        {
+            instance = this;
+        }
+        else
+        {
+            //rig.isKinematic = true;
+        }
+    }
     // Update is called once per frame
     void FixedUpdate ()
     {
