@@ -43,7 +43,10 @@ public class PlayerMvmt : MonoBehaviourPunCallbacks
     void FixedUpdate ()
     {
         rb.MoveRotation(CameraController.instance.transform.rotation);
-        rb.AddForce(0, 0, forwardForce * Time.deltaTime);
+        Vector3 forward = new Vector3(0, 0, -transform.position.z).normalized;
+        //rb.AddForceAtPosition(-transform.position, forward);
+        //transform.position += forward * Time.deltaTime *10;
+        rb.GetComponent<Rigidbody>().velocity = transform.forward * Time.deltaTime * forwardForce;
         if (Input.GetAxis("Mouse X") < 0)
         {
             transform.Rotate(0, -(Input.GetAxis("Mouse X")) * Time.deltaTime * forwardForce, 0);
@@ -54,24 +57,26 @@ public class PlayerMvmt : MonoBehaviourPunCallbacks
         }
         if ( Input.GetKey("d"))
         {
-            rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+            rb.GetComponent<Rigidbody>().velocity = transform.right * Time.deltaTime * forwardForce;
         }
 
         if (Input.GetKey("a"))
         {
-            rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+            rb.GetComponent<Rigidbody>().velocity = -transform.right * Time.deltaTime * forwardForce;
+
         }
 
         if (Input.GetKey("w"))
         {
-            rb.AddForce(0, upwardForce * Time.deltaTime, 0, ForceMode.VelocityChange);
+            rb.GetComponent<Rigidbody>().velocity = transform.up * Time.deltaTime * forwardForce;
+
         }
 
         if (Input.GetKey("s"))
         {
-            rb.AddForce(0, -upwardForce * Time.deltaTime, 0, ForceMode.VelocityChange);
+            rb.GetComponent<Rigidbody>().velocity = -transform.up * Time.deltaTime * forwardForce;
         }
-        if(rb.position.y < -maxY)
+        if (rb.position.y < -maxY)
         {
             GameManager.instance.EndGame();
         }
