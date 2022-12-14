@@ -194,6 +194,8 @@ GameObject:
   - component: {fileID: 6888730003599498340}
   - component: {fileID: 5291335611706035515}
   - component: {fileID: 8639145624081729080}
+  - component: {fileID: 3196405584131542934}
+  - component: {fileID: 5671420116313610733}
   m_Layer: 0
   m_Name: crate
   m_TagString: Untagged
@@ -231,6 +233,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77b44a75d374bda4694c858faba8f826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numPickups: 0
+  pickuptypes:
+  - slow
+  - missle
+  slowModifier: 2
+  misslePrefabs:
+  - 
 --- !u!95 &8639145624081729080
 Animator:
   serializedVersion: 4
@@ -251,6 +260,41 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3196405584131542934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6112088227847325406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!65 &5671420116313610733
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6112088227847325406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.0118817, z: 1}
+  m_Center: {x: 0, y: 0.83545023, z: 0}
 --- !u!1 &6533547693998882885
 GameObject:
   m_ObjectHideFlags: 0

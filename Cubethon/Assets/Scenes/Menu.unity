@@ -1373,7 +1373,7 @@ MonoBehaviour:
   startgameButton: {fileID: 452385477}
   roomListContainer: {fileID: 1547800470}
   roomButtonPrefab: {fileID: 6730863259542922251, guid: dc33b289d8de303409d5b8e7574a036b, type: 3}
-  nextLevel: Level 1
+  nextLevel: Island Racers
 --- !u!1 &1335630633 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 875888164230483670, guid: 710ad2cf3d7fc544abbf40609d7b3e12, type: 3}

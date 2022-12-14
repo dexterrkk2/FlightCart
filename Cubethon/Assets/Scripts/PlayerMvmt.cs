@@ -15,6 +15,8 @@ public class PlayerMvmt : MonoBehaviourPunCallbacks
     public int id;
     public Player photonPlayer;
     public static PlayerMvmt instance;
+    public string misslePrefab;
+    public bool missleEquipped;
     private void Awake()
     {
         instance = this;
@@ -47,6 +49,16 @@ public class PlayerMvmt : MonoBehaviourPunCallbacks
         //rb.AddForceAtPosition(-transform.position, forward);
         //transform.position += forward * Time.deltaTime *10;
         rb.GetComponent<Rigidbody>().velocity = transform.forward * Time.deltaTime * forwardForce;
+        if (Input.GetButton("Jump"))
+        {
+            if (photonView.IsMine)
+            {
+                if (missleEquipped)
+                {
+                    LaunchMissle();
+                }
+            }
+        }
         if (Input.GetAxis("Mouse X") < 0)
         {
             transform.Rotate(0, -(Input.GetAxis("Mouse X")) * Time.deltaTime * forwardForce, 0);
@@ -76,24 +88,15 @@ public class PlayerMvmt : MonoBehaviourPunCallbacks
         {
             rb.GetComponent<Rigidbody>().velocity = -transform.up * Time.deltaTime * forwardForce;
         }
-        if (rb.position.y < -maxY)
-        {
-            GameManager.instance.EndGame();
-        }
-
-        if (rb.position.y > maxY)
-        {
-            GameManager.instance.EndGame();
-        }
-
-        if (rb.position.x < -maxX)
-        {
-            GameManager.instance.EndGame();
-        }
-
-        if (rb.position.x > maxX)
-        {
-            GameManager.instance.EndGame();
-        }
+    }
+    public void SetMissle(string missletype)
+    {
+        misslePrefab = missletype;
+        missleEquipped = true;
+    }
+    public void LaunchMissle()
+    {
+        missleEquipped = false;
+        PhotonNetwork.Instantiate(misslePrefab, transform.position, Quaternion.identity);
     }
 }
