@@ -14,15 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Island Racers.unity
     guid: 6a655bf9a70be9a4cab2d561cf68e527
-  - enabled: 0
-    path: Assets/Scenes/Level 1.unity
-    guid: 185440cdb48f7b040b346a9792628198
-  - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: 461c50f402a6c2141b34bf7fcdf0193c
-  - enabled: 1
-    path: Assets/Scenes/Level 3.unity
-    guid: 58f4ee804216c1a4dad2b399469114a9
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: a5c577e1e6b4f4441938053ef1540140

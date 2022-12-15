@@ -33,6 +33,7 @@ public class Networkmanager : MonoBehaviourPunCallbacks
     }
     public void JoinRoom(string roomName)
     {
+        Debug.Log("roomname");
         PhotonNetwork.JoinRoom(roomName);
     }
     [PunRPC]
